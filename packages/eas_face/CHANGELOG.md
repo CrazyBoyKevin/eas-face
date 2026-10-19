@@ -1,4 +1,4 @@
-## 0.2.0 (unreleased)
+## 0.2.0
 
 - 新增默认关闭的 `FaceEngine(compareAllFaces: true)`，compare / compareImage 比较两侧全部可用人脸组合，返回最高分组合；任意一组达标即通过。
 - 偏色、光照与有限几何容错改为内部自动执行，移除 documentTolerance / documentColorTolerance 构造参数及属性；旧调用需删除这两个参数。

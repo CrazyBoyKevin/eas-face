@@ -1,6 +1,6 @@
 # eas_face — AI Agent 技术指南
 
-适用版本：`eas_face 0.2.0`（本地未发布）。文档更新：2026-10-16。
+适用版本：`eas_face 0.2.0`。文档更新：2026-10-19。
 
 本文供 AI Agent 接入、排查和维护 SDK 使用。面向开发者的快速接入见 [README](README.md)，JSON 的字段约定见 [JSON_FIELDS](JSON_FIELDS.md)。本文记录当前实现及维护建议，不代表每次任务都需要修改所有模块；执行范围以用户当前要求为准。
 
@@ -343,7 +343,7 @@ c >  0.4: s = 0.60 + (c - 0.4) / 0.60 * 0.40
 
 | 项目 | 当前配置 |
 | --- | --- |
-| 包名 / 版本 | `eas_face` / `0.2.0`（本地未发布） |
+| 包名 / 版本 | `eas_face` / `0.2.0` |
 | Dart / Flutter 最低声明 | Dart `>=3.7.0 <4.0.0` / Flutter `>=3.29.0` |
 | 移动平台 | Android API 24+；iOS 16+ |
 | 运行时 | `flutter_onnxruntime: 1.9.0`，原生会话线程参数为 intra=2、inter=1 |

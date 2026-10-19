@@ -9,4 +9,6 @@
 
 本次分支范围为 SDK。仓库根目录原有应用、服务端、数据库、私人测试输入及构建缓存未纳入这些初始提交，仍保留在本机。切换 Git 分支不会替换未跟踪的应用文件；使用对应分支下的 `packages/` 接入 SDK，纯比对示例位于 `packages/eas_face/example/`。
 
-目前没有配置 Git 远端，仅在本地建立分支和提交；不涉及 pub.dev 发布。
+Git 远端：`https://github.com/CrazyBoyKevin/eas-face.git`，两个分支均已推送。
+
+`eas_face 0.2.0` 已发布到 pub.dev；文档后续更新以 GitHub 为准，pub.dev 会在发布新版本后更新。活体扩展尚未发布。
