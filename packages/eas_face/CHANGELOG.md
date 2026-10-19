@@ -1,3 +1,8 @@
+## 0.2.1
+
+- Add an English README with structured API and result-field documentation; retain the Chinese guide with language links.
+- Add the GitHub repository URL to package metadata. No runtime or model changes.
+
 ## 0.2.0
 
 - 新增默认关闭的 `FaceEngine(compareAllFaces: true)`，compare / compareImage 比较两侧全部可用人脸组合，返回最高分组合；任意一组达标即通过。

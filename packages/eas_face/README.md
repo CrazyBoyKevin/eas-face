@@ -46,7 +46,7 @@ SDK. The host application handles camera access, image selection, and permission
 
 ```yaml
 dependencies:
-  eas_face: ^0.2.0
+  eas_face: ^0.2.1
 ```
 
 ```sh

@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-**Flutter 本地人脸比对 SDK · Android / iOS · 0.2.0**
+**Flutter 本地人脸比对 SDK · Android / iOS · 0.2.1**
 
 传入两张照片，获取相似分数、人脸框、五个关键点和对齐后的人脸小图。模型随包提供，照片在设备上处理，无需云端识别服务。多人照片默认选取面积最大的人脸，可通过参数开启所有可用人脸组合比对。
 
@@ -40,7 +40,7 @@ SDK 仅支持 App 端。HEIC 请先在本地转为支持的格式。拍照、选
 
 ```yaml
 dependencies:
-  eas_face: ^0.2.0
+  eas_face: ^0.2.1
 ```
 
 然后执行：
