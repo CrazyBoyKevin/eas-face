@@ -1,6 +1,7 @@
 name: eas_face_liveness
 description: Local two-model passive face anti-spoofing for eas_face on Android and iOS.
 version: 0.1.1
+repository: https://github.com/CrazyBoyKevin/eas-face
 publish_to: none
 environment:
   sdk: '>=3.7.0 <4.0.0'
