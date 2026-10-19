@@ -1,0 +1,28 @@
+name: eas_face
+description: On-device face comparison with bundled YuNet and Intel 0095 models for Flutter Android and iOS.
+version: 0.2.0
+topics:
+  - face-recognition
+  - on-device
+  - computer-vision
+  - onnx
+platforms:
+  android:
+  ios:
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+  flutter: '>=3.29.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_onnxruntime: 1.9.0
+  image: ^4.5.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  assets:
+    - assets/models/face_detection_yunet_2023mar.onnx
+    - assets/models/face-reidentification-retail-0095.onnx
+    - licenses/

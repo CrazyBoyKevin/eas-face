@@ -1,0 +1,33 @@
+.dart_tool/
+build/
+tool/node_modules/
+example/.dart_tool/
+example/build/
+example/android/.gradle/
+example/android/local.properties
+example/ios/Pods/
+example/ios/.symlinks/
+example/ios/Flutter/ephemeral/
+example/ios/Flutter/Generated.xcconfig
+example/ios/Flutter/flutter_export_environment.sh
+.flutter-plugins*
+example/.flutter-plugins*
+# Internal diagnostics, retired weights and local/generated configuration.
+VALIDATION.md
+assets/models/face_recognition_sface_2021dec.onnx
+licenses/face_recognition_sface.LICENSE
+**/* 2.*
+**/*.iml
+**/*.pyc
+**/__pycache__/
+**/xcuserdata/
+**/GeneratedPluginRegistrant.*
+**/generated_plugin_registrant.dart
+**/.DS_Store
+.model-env/
+**/build*/
+# Override the surrounding application's Git exclusions for bundled models.
+!assets/
+!assets/models/
+!assets/models/face_detection_yunet_2023mar.onnx
+!assets/models/face-reidentification-retail-0095.onnx
