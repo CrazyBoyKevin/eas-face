@@ -1,0 +1,28 @@
+{
+  "upstream_commit": "b6d5f04ad78778917853b25c778acef6d5626d15",
+  "source_sha256": {
+    "src/model_lib/MiniFASNet.py": "e498c4ec5e1ddfaba62b941a126c19d65aa564999f3309661fe43ee8bf38acd7",
+    "resources/anti_spoof_models/2.7_80x80_MiniFASNetV2.pth": "a5eb02e1843f19b5386b953cc4c9f011c3f985d0ee2bb9819eea9a142099bec0",
+    "LICENSE": "daf94bf1dc9cc5700fe5af2c7c0cbd1836e70d509ed78fd0bebef7432edee6fb"
+  },
+  "onnx_sha256": "151851621df3e93f7127847271e923a7a8247b8f6f4c9bb4e46170d1eba7400b",
+  "onnx_bytes": 1743535,
+  "opset": 17,
+  "ir_version": 8,
+  "input": "float32 BGR NCHW [1,3,80,80], 0..255; no normalization",
+  "output": "three logits; live class index 1; apply softmax once",
+  "max_abs_errors": [
+    2.384185791015625e-06,
+    2.6226043701171875e-06,
+    2.86102294921875e-06
+  ],
+  "benchmark_platform": "macOS-27.0.1-arm64-arm-64bit",
+  "torch": "2.14.1",
+  "onnxruntime": "1.31.0",
+  "cpu_threads": 2,
+  "warmup": 20,
+  "iterations": 200,
+  "inference_p50_ms": 0.597395501245046,
+  "inference_p95_ms": 0.6463997062382987,
+  "benchmark_note": "Synthetic input, desktop CPU inference only. Not camera, Flutter or mobile latency; not an accuracy test."
+}
